@@ -4,13 +4,15 @@ document.getElementById("studentForm")
     event.preventDefault();
 
     let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
+    let age = document.getElementById("age").value;
+    let dept = document.getElementById("dept").value;
 
     document.getElementById("message").innerText =
-        "Form submitted successfully! Welcome " + name;
+        "Successfully Submitted!";
 
     console.log("Name:", name);
-    console.log("Email:", email);
+    console.log("Age:", age);
+    console.log("Department:", dept);
 
     this.reset();
 
